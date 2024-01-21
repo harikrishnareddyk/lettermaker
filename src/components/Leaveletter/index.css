@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+}
+
+.marginEl {
+  margin: 20px;
+}
+
+.left {
+  margin-left: 15px;
+}
+
+.letter {
+  width: 50vw;
+}
+
+@media (width<=768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .letter {
+    width: 90vw;
+  }
+}
